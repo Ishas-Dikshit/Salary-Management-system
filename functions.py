@@ -41,7 +41,6 @@ def Reset():
     hourlyrate.set("")
     tax.set("")
     overtime.set("")
-    grosspay.set("")
     netpay.set("")
     payable.set("")
     txtsalary.delete("1.0",END)
