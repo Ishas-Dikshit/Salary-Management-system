@@ -30,7 +30,8 @@ flb.pack(side = TOP)
 lblinfo = Label(Topframe, font =('arial', 60, 'bold'), bg = "lightblue",fg = "Red", text = "    Salary management system     ", bd = 10,)
 lblinfo.grid(row = 0, column = 0)
 
-
+lblmin = Label(Topframe, font = ('arial',15), text = "Minimum 40 hours to avoid pay cut")
+lblmin.grid(row = 1,column = 0)
 
 Name = StringVar()
 Address = StringVar()
